@@ -67,3 +67,12 @@ section {
     color: $light-color;
   }
 }
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: $primary-color; 
+}
+input[type="range"]::-webkit-slider-thumb {
+  background: $primary-color;
+}
